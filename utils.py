@@ -61,5 +61,5 @@ def getPoissonBounds(alpha, error):
 
         R = (np.ceil(np.floor(alpha) + (k * np.sqrt(2 * l)) + 3.0 / 2.0))
 
-    return int(L), int(R)
+    return int(L*1.5), int(R*.5)
 
